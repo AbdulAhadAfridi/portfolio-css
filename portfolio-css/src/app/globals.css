@@ -1,0 +1,611 @@
+  body{
+    background-color: black;
+    color: white;
+  }
+  
+  
+  /* Container styling */
+.header {
+  max-width: 1280px; /* Similar to max-w-screen-xl */
+  margin: 0 auto; /* Center align */
+  padding: 0 1.5rem; /* Similar to px-6 */
+  position:sticky;
+  top: 0;
+}
+
+.container {
+  padding-top: 0.5rem; /* Similar to pt-2 */
+  position: sticky;
+  top: 0;
+  margin-bottom: 0.5rem; /* Similar to mb-2 */
+}
+
+/* Header content styling */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+/* Logo styling */
+.logo {
+  font-weight: 500; /* Similar to font-medium */
+  font-size: 15px; /* Similar to text-xl */
+}
+
+@media (min-width:768) {
+  .log {
+font-size: 20px;
+  }
+}
+
+/* Navigation styling */
+.nav-list {
+  font-size: 12px;
+  
+}
+
+@media (min-width: 768px) {
+  .nav-list {
+    display:flex; /* Show on md and larger screens */
+    font-size: 20px;
+  }
+}
+
+.nav-item {
+  display: flex;
+  gap: 1.5rem; /* Similar to space-x-6 */
+  padding-top: 1rem; /* Similar to py-4 */
+  padding-bottom: 1rem;
+  
+}
+
+.nav-link {
+  transition: color 0.2s ease-in-out;
+  color: white; /* Change this to your preferred color */
+  text-decoration: none; /* Removes underline */
+
+
+}
+
+.nav-link:hover {
+  color: #F2AA4C; /* Hover effect color */
+}
+
+/* Hero Section */
+
+/* Section container styling */
+.hero-section {
+  max-width: 1280px; /* Similar to max-w-screen-xl */
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row; /* Similar to md:flex-row */
+  }
+}
+
+/* Hero text styling */
+.hero-text {
+  margin-top:0rem; /* Similar to mt-14 */
+  /* margin-right: 15rem; Similar to mr-60 */
+  font-size: 3rem; /* Default for text-6xl */
+  font-weight: bold;
+  /* display: flex; */
+  flex-direction: column;
+  gap: orem; /* Similar to space-y-4 */
+  text-align: center;
+  
+}
+
+@media (min-width: 1024px) {
+  .hero-text {
+    font-size: 6rem; /* Increase to text-8xl on large screens */
+  }
+}
+
+/* Hero image styling */
+.hero-image {
+  width: 24rem; /* Similar to w-96 */
+  height: 24rem; /* Similar to h-96 */
+  border-radius: 50%; /* Similar to rounded-full */
+  object-fit: cover;
+  margin-top: 3.5rem; /* Similar to mt-14 */
+}
+
+
+/* Download section styling */
+.download-section {
+  margin-top: 5rem; /* Similar to mt-20 */
+  margin-bottom: 2.5rem; /* Similar to mb-10 */
+  text-align: center;
+}
+
+/* Button styling */
+.download-button {
+  background-color: #F2AA4C; /* Set button background color */
+  color: black; /* Button text color */
+  font-size: 1.25rem; /* Similar to text-xl */
+  font-weight: bold;
+  padding: 1rem 1.5rem; /* Similar to py-4 px-6 */
+  border-radius: 0.75rem; /* Similar to rounded-xl */
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none; /* Remove underline */
+}
+
+.download-button:hover {
+  background-color: white; /* Change color on hover */
+}
+
+
+
+
+/* About section styling */
+.about-section {
+  display: flex;
+  max-width: 1280px; /* Similar to max-w-screen-xl */
+  margin: 0 auto; /* Center align */
+  text-align: center;
+}
+
+/* Text section styling */
+.about-text {
+  width: 100%;
+  padding-left: 1.25rem; /* Similar to pl-5 */
+}
+
+/* Title styling */
+.about-title {
+  font-size: 3rem; 
+  font-weight: 600; /* Similar to font-semibold */
+  margin-top: 8rem; /* Similar to mt-20 */
+}
+
+/* Description styling */
+.about-description {
+  color: #D3D3D3; /* Text color */
+  font-size: 1.5rem; /* Similar to text-2xl */
+  margin-top: 2rem; /* Similar to mt-8 */
+}
+
+/* Skills section styling */
+.skills-section {
+  margin-top: 2rem; /* Similar to mt-8 */
+}
+
+.skills-title {
+  font-size: 3rem; /* Similar to text-4xl */
+  font-weight: 600; /* Similar to font-semibold */
+  
+}
+
+.skills-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 1.5rem; /* Similar to text-2xl */
+  color: #fff; /* Text color */
+  margin-top: 2rem; /* Similar to mt-8 */
+  gap: 5px; /* Space of 5 pixels between items */
+}
+
+.skill-item {
+  display: inline-block;
+  border: none;
+  padding: 6px; /* Similar to p-[6px] */
+  
+}
+
+.red {
+  background-color: #ff4747; /* Similar to bg-red-400 */
+}
+
+.purple {
+  background-color: #7a4bff; /* Similar to bg-purple-400 */
+}
+
+.orange {
+  background-color: #F2AA4C; /* Similar to bg-[#F2AA4CFF] */
+}
+
+.blue {
+  background-color: #4a90e2; /* Similar to bg-blue-400 */
+}
+
+.lime {
+  background-color: #a5d500; /* Similar to bg-lime-400 */
+}
+
+/* Contact section styling */
+.contact-section {
+  margin-top: 5rem; /* Similar to mt-20 */
+  margin-bottom: 7rem; /* Similar to mb-28 */
+}
+
+.contact-button {
+  background-color: #007bff; /* Similar to bg-blue-500 */
+  color: white; /* Text color */
+  font-size: 1.25rem; /* Similar to text-xl */
+  padding: 0.75rem 1.5rem; /* Similar to py-3 px-6 */
+  border-radius: 0.75rem; /* Similar to rounded-xl */
+  transition: background-color 0.3s ease; /* Similar to transition duration-300 */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-button:hover {
+  background-color: #0056b3; /* Similar to hover:bg-blue-600 */
+}
+  /* contact code  */
+/* General Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+  }
+}
+
+/* Left Container */
+.left-container {
+  background-color: #F2AA4CFF;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .left-container {
+    padding: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .left-container {
+    width: 50%;
+    height: 850px;
+  }
+}
+
+.heading {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+
+.description {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .description {
+    font-size: 22px;
+  }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    width: 150px;
+    height: 140px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-image {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* Right Container */
+.right-container {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .right-container {
+    padding-left: 40px;
+    text-align: left;
+  }
+}
+
+.thank {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  .thank {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .thank {
+    font-size: 70px;
+  }
+}
+
+.divider {
+  width: 70%;
+  margin: 20px auto;
+  border: 1px solid #D3D3D3;
+}
+
+@media (min-width: 1024px) {
+  .divider {
+    width: 25%;
+    margin-left: 40px;
+  }
+}
+
+.message {
+  color: #D3D3D3;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .message {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .message {
+    font-size: 22px;
+  }
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.contact-button {
+  background-color: #F2AA4CFF;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #e39c3b;
+}
+
+@media (min-width: 768px) {
+  .contact-button {
+    padding: 15px 30px;
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-button {
+    padding: 18px 36px;
+    font-size: 24px;
+  }
+}
+
+/* Contact Info */
+.contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .contact-info {
+    font-size: 18px;
+  }
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+/* Social Media Links */
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #666;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .social-links a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .social-links a {
+    font-size: 22px;
+  }
+}
+
+/* Footer code  */
+
+.footer-text {
+  text-align: center;
+  color: #6b7280; /* gray-500 */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-text p {
+  margin: 0;
+}
+
+/* Divider styles */
+.footer-divider {
+  border-top: 1px solid #4b5563; /* gray-600 */
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .footer-divider {
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+  }
+}
+
+  /* Animation  */
+
+  /* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Slide-in from left animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Slide-in from right animation */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply fade-in animation to main sections */
+.header, .hero-section, .about-section, .contact-section {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Apply slide-in animations for hero text and image */
+.hero-text {
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.hero-image {
+  animation: slideInRight 1s ease-in-out;
+}
+
+/* Button hover animation */
+.download-button, .contact-button {
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.download-button:hover, .contact-button:hover {
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Footer fade-in */
+.footer-text, .footer-divider {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Social Media Links hover effect */
+.social-links a:hover {
+  color: #F2AA4C;
+  transition: color 0.3s ease;
+}
